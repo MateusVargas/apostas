@@ -1,0 +1,603 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.logo{
+    float: left;
+    position: absolute;
+    top: 8px;
+}
+
+.nomeSite{
+    color: white;
+    text-transform: uppercase;
+    font-size: 23px;
+	font-family: verdana;
+	top: 10px;
+	position: relative;
+    width: 500px;
+    left: 300px;
+}
+.login{
+    float: right;
+}
+img{
+	width: 250px;
+	height: 65px;
+    margin-top: 3px;
+    margin-left: 3px;
+}
+
+body{
+	overflow-x: hidden;
+	background-color: teal;
+}
+.container{
+    width: 960px;
+    margin: auto;
+    background-color: white;
+    height: 100%;
+}
+
+header{
+    width: 100%;
+    height: 90px;
+	position: fixed;
+    background: #00008b;
+    z-index: 1;
+	top: 0px;
+	left: 0px;
+    text-align: center;
+}
+
+.login a{
+	float: right;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 15px;
+	padding: 20px;
+	font-family: verdana;
+	margin-right: 30px;
+}
+.login a:hover{
+	color: yellow;
+    border-bottom: 2px solid yellow;
+}
+
+.menu{   
+	background-color: red;
+	width: 100%;
+	height: 50px;
+    clear: both;
+    position: relative;
+}
+
+.menu nav li{
+	display: inline-block;
+	padding: 10px;
+	text-transform: uppercase;
+    margin-right: 0px;
+}
+
+.menu li a:hover{
+    border-bottom: 3px solid white;	
+}
+
+.menu li a{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 15px;
+	font-family: verdana;
+	padding: 10px;
+	margin-left: 50px;
+    margin-right: 50px;
+	background-color: red;
+}
+.menu nav ul li{
+	position: relative;
+}
+
+li ul{
+	position: absolute;
+	left: 0px;
+	top: 40px;
+	display: none;
+}
+
+ul li ul li ul{
+    width: 170px;
+    position: absolute;
+    left: 170px;
+    top: 0px;
+}
+
+li:hover ul{
+    display: block;
+}
+
+li ul li ul li{
+    display: none;
+}
+
+.menu nav ul li ul li:hover li{
+    display: block;
+}
+
+section:first-of-type{
+    margin-top: 123px;
+}
+
+
+.ganhador{	
+	position: relative;
+	padding: 35px;
+	background-color: steelblue;
+}
+.ganhador h2{
+	text-align: center;
+	color: white;	
+}
+
+.ganhador table td{
+	width: 40%;
+	text-transform: uppercase;
+	color: white;
+	font-size: 15px;
+}
+.aposta{
+	position: relative;
+	padding: 35px;
+	background-color: gainsboro;
+}
+.aposta h2{
+	text-align: center;
+	color: black;
+	font-size: 22px;
+	margin-top: -3%;
+}
+.aposta table td{
+	width: 4%;
+	padding-left: 25%;
+	padding-top: 2%;
+}
+
+.primeiroT{
+	position: relative;
+	padding: 35px;
+	background-color: orange;
+}
+.primeiroT h2{
+	text-align: center;
+	margin-top: -3%;
+}
+.primeiroT table{
+	margin-left: 23%;
+}
+.primeiroT table td{
+	padding-left: 100px;
+}
+
+.placar{
+	position: relative;
+	padding: 30px;
+	background-color: seagreen;
+}
+.placar h2{
+	color: white;
+	text-align: center;
+}
+.placar table{
+	border-style: initial;
+	border-collapse: collapse;
+	border-color: darkgray;
+	margin-left: 100px;
+}
+.placar table td{
+	width: 25%;
+	color: white;
+	font-weight: bold;
+	padding-left: 90px;
+	height: 25px;
+}
+.placar table th{
+	color: white;
+	height: 30px;
+	background-color: red;
+}
+
+.valor{
+	padding: 80px;
+	position: relative;
+	background-image: url("../img/fundoddd1.jpg");
+}
+.valor .botao{
+	text-decoration: none;
+	padding: 12px 30px;
+	background-color: white;
+	border-radius: 30px;
+	position: absolute;
+	font-weight: bold;
+	border: 2px solid #ff003f;
+	left: 44%;
+	bottom: 20px;
+}
+.valor select{
+	width: 200px;
+	padding: 10px;
+	border-radius: 30px;
+	border: 1px solid;
+	top: 28%;
+	position: absolute;
+	right: 13%;
+}
+.valor label{
+	font-weight: bold;
+	top: 52px;
+	position: absolute;
+	left: 10%;
+	font-size: 20px;
+	font-family: verdana;
+	-webkit-text-stroke: 1px;
+	-webkit-text-stroke-color: red;
+}
+.valor input{
+	width: 200px;
+	padding: 7px;
+	border-radius: 30px;
+	border: 1px solid;
+	position: absolute;
+	left: 30%;
+	top: 30%;
+}
+
+footer{
+	position: relative;
+	padding: 60px;
+	background-color: lightgray;
+}
+footer img{
+	width: 40px;
+	height: 30px;
+}
+footer .p1{
+	position: absolute;
+	font-family: verdana;
+	left: 45%;
+	top: 72px;
+	font-size: 15px;
+}
+footer .p2{
+	position: absolute;
+	font-family: verdana;
+	left: 42%;
+	top: 100px;
+	font-size: 13px;
+}
+footer .p3{
+	position: absolute;
+	font-weight: bold;
+	font-family: verdana;
+	left: 40%;
+	top: 46px;
+	font-size: 13px;
+}
+footer .f{
+	position: absolute;
+	left: 48%;
+	top: 35px;
+}
+footer .t{
+	position: absolute;
+	left: 54%;
+	top: 35px;
+}
+footer .g{
+	position: absolute;
+	left: 60%;
+	top: 35px;
+}
+
+
+
+@media only screen and (min-width: 620px) and (max-width: 980px){
+	.menu li a{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+	.menu nav li{
+	margin-right: -9px;
+	}
+	
+
+    .container{
+        width: 100%;
+    }
+    
+    .nomeSite{
+        width: 100%;
+        left: 50%;
+        right: 50%;
+    }
+	
+}
+
+
+@media only screen and (min-width: 420px) and (max-width: 600px){
+			section:first-of-type{
+    margin-top: 105px;
+	}
+    .logo img{
+        width: 145px;
+		height: 40px;
+		position: absolute;
+    }
+    .container{
+        width: 100%;
+    }
+	.login a{
+	float: right;
+	text-decoration: none;
+	font-size: 15px;
+	padding: 10px;
+	margin-right: 10px;
+	}
+	.nomeSite{
+    font-size: 15px;
+	top: 15px;
+    width: 100%;
+    left: 30%;
+        
+	}
+	.menu nav{
+	position: relative;
+	width: 100%;
+	}
+	.menu nav li a{
+	width: 100%;
+	position: relative;
+	text-decoration: none;
+	font-size: 10px;
+	margin-left: -20px;
+	margin-right: 5px;
+}
+
+	footer img{
+	width: 30px;
+	height: 20px;
+	}
+	footer .p1{
+	left: 40%;
+	top: 55%;
+	}
+	footer .p2{
+	left: 34%;
+	top: 77%;
+	}
+	footer .p3{
+	left: 30%;
+	top: 33%;
+	}
+	footer .f{
+	left: 48%;
+	}
+	footer .t{
+	left: 55%;
+	}
+	footer .g{
+	left: 62%;
+	}
+	
+	.ganhador h2{
+	font-size: 1.5rem;
+	margin-top: -20px;
+}
+
+.ganhador table td{
+	width: 10%;
+	font-size: 13px;
+}
+.aposta h2{
+	font-size: 18px;
+	margin-top: -20px;
+}
+.primeiroT h2{
+	font-size: 15px;
+}
+.primeiroT table{
+	margin-left: 10%;
+}
+.primeiroT table td{
+	padding-left: 50px;
+}
+.placar h2{
+	font-size: 20px;
+}
+.placar table{
+	margin-left: -5px;
+}
+.placar table td{
+	padding-left: 15px;
+	height: 15px;
+	width: 20%;
+}
+.valor .botao{
+	padding: 7px 10px;
+	left: 37%;
+	bottom: 15px;
+}
+.valor select{
+	width: 140px;
+	padding: 5px;
+	left: 36%;
+	top: 75px;
+}
+.valor label{
+	top: 10px;
+	left: 35%;
+}
+.valor input{
+	top: 37px;
+	width: 115px;
+	padding: 5px;
+	left: 38%;
+}
+	
+	
+}
+
+@media only screen and (max-width: 420px){
+		body{
+	overflow-x: hidden;
+	}
+	
+	section:first-of-type{
+    margin-top: 75px;
+}
+    .container{
+		width: 100%;
+	}
+	
+    .menu nav .hamburger{
+    top: 10px;
+	position: absolute;
+	margin-left: 50%;
+	color: wheat;
+	clear: both;
+}
+    .container{
+        width: 100%;
+    }
+    
+    header{
+	width: 100%;
+	height: 50px;
+	position: fixed;
+	z-index: 1;
+	}
+    
+	.nomeSite{
+ 	font-size: 9px;
+	top: 30px;
+	position: absolute;
+	left: 90px;
+	}
+	.login a{
+	font-size: 10px;
+	padding: 10px;
+	position: relative;	
+	}
+	
+	.menu nav{
+		width: 100%;
+		margin-top: 20px;
+		clear: both;
+	}
+	
+	.menu{
+        width: 100%;
+		clear: both;
+        position: relative;
+        top: 17px;
+        height: 40px;
+	}
+
+    .menu li a{
+	font-size: 11px;
+	padding: 1px;
+	letter-spacing: -2px;
+	margin-inline-start: -22px;
+	margin-inline-end: 0px;
+}  
+    .logo img{
+        width: 70px;
+        height: 30px;
+		position: absolute;
+    }
+    
+    .login a:hover{
+    border-bottom: 1px solid yellow;
+    }
+	
+		footer img{
+	width: 30px;
+	height: 20px;
+	}
+	footer .p1{
+	left: 25%;
+	top: 55%;
+	}
+	footer .p2{
+	left: 13%;
+	top: 77%;
+	}
+	footer .p3{
+	left: 12%;
+	top: 33%;
+	}
+	footer .f{
+	left: 38%;
+	}
+	footer .t{
+	left: 53%;
+	}
+	footer .g{
+	left: 70%;
+	}
+	
+.ganhador h2{
+	font-size: 1.5rem;
+	margin-top: -20px;
+}
+
+.ganhador table td{
+	width: 10%;
+	font-size: 10px;
+}
+.aposta h2{
+	font-size: 18px;
+	margin-top: -20px;
+}
+.primeiroT h2{
+	font-size: 15px;
+}
+.primeiroT table{
+	margin-left: -10%;
+}
+.primeiroT table td{
+	padding-left: 50px;
+}
+.placar h2{
+	font-size: 20px;
+}
+.placar table{
+	margin-left: -5px;
+}
+.placar table td{
+	padding-left: 15px;
+	height: 15px;
+	width: 20%;
+}
+.valor .botao{
+	padding: 7px 10px;
+	left: 30%;
+	bottom: 10px;
+}
+.valor select{
+	width: 140px;
+	padding: 5px;
+	left: 29%;
+	top: 72px;
+}
+.valor label{
+	top: 10px;
+	left: 25%;
+}
+.valor input{
+	top: 33px;
+	width: 115px;
+	padding: 5px;
+}
+
+}

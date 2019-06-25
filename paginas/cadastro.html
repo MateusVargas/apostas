@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<link rel="stylesheet" href="../css/cadastro.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" 
+		integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+		
+		<title>Cadastro</title>
+
+	</head>
+
+<body>
+	<div class="container">
+	
+	<header>
+	    <div class="nomeSite">
+			<marquee> Apostas Esportivas.tv </marquee>
+		</div>
+		
+		<div class="logo">
+		    <img src="../img/1234.png">
+		</div>
+		
+		<div class="login">
+		    <a href="login.html">Login</a>
+			<a href="cadastro.html">Cadastro</a>
+		</div>
+		
+	
+
+	<div class="menu">
+		<nav>
+			<ul>
+		    
+				<li><a href="../index.html">Ao Vivo</a></li>
+				<li><a href="futebol.html">Futebol</a></li>
+				<li><a href="basquete.html">Basquete</a></li>
+                <li><a href="#">Outros Esportes</a>
+				
+					<ul>
+				
+						<li><a href="tenis.html">Tênis</a></li>
+						<li><a href="cassino.html">Cassino</a></li>
+				
+					</ul>			
+				
+				</li>
+				
+				
+				
+            </ul>
+      
+		</nav>
+    
+    </div>
+			
+			
+	</header>
+	
+	
+	
+	<section class="conteudo">
+	
+		<form>
+     
+            <fieldset>
+          
+				<legend>Dados pessoais</legend>
+			
+					<div class="dados1">
+						<label>Nome Completo:</label><br>
+						<input type="text" name="nome" placeholder="Nome Completo" required><br>
+						
+						<label>Idade:</label><br>
+						 <input type="number" name="idade" placeholder="idade" required><br>
+						
+						
+						<label>Sexo:</label><br>
+						 <input class="sexo" type="radio" name="sexo" value="masculino">Masculino
+						 <input class="sexo" type="radio" name="sexo" value="feminino">Feminino<br>
+					 
+						 <label>CPF:</label><br>
+						 <input type="number" name="cpf" placeholder="000.000.000-00" pattern="^\d{3}.\d{3}.\d{3}-\d{2}" maxlength="11" required><br>
+					</div>
+			
+					<div class="dados2">
+					
+						<label>Data de Nascimento:</label><br>
+						<input id="dataNasc" type="date" name="data" required><br>
+
+					
+						<label>e-mail:</label><br>
+						<input type="email" name="email" placeholder="email@email.com"><br>
+						  
+						<label>Telefone:</label><br>
+						<input type="tel" name="fone" placeholder="(DDD) 9 9999-9999"><br>
+					  
+					</div>
+	
+			</fieldset>
+			
+			
+			
+			
+			<fieldset>
+				<legend>Endereço</legend>
+			
+					<div class="dados3"> 
+		  
+						<label>Cidade:</label><br>
+						<input type="text" name="Cidade"><br>
+						
+						<label>Estado:</label><br>
+						<select name="estados">
+							<option value="AC">Acre</option>
+							<option value="AL">Alagoas</option>
+							<option value="AM">Amapá</option>
+							<option value="AM">Amazonas</option>
+							<option value="BA">Bahia</option>
+							<option value="CE">Ceará</option>
+							<option value="DF">DF</option>
+							<option value="ES">Espirito Santo</option>
+							<option value="GO">Goiás</option>
+							<option value="MT">Mato Grosso</option>
+							<option value="MS">Mato Grosso do Sul</option>
+							<option value="MG">Minas gerais</option>
+							<option value="PA">Pará</option>
+							<option value="PB">Paraíba</option>
+							<option value="PR">Paraná</option>
+							<option value="PE">Pernambuco</option>
+							<option value="PI">Piauí</option>
+							<option value="RJ">Rio de Janeiro</option>
+							<option value="RN">Rio Grande do Norte</option>
+							<option value="RS">Rio Grande do Sul</option>
+							<option value="RO">Rôndonia</option>
+							<option value="RR">Roraima</option>
+							<option value="SC">Santa Catarina</option>
+							<option value="SP">São Paulo</option>
+							<option value="SE">Sergipe</option>
+							<option value="TO">Tocantins</option>
+						</select>
+									
+					</div>
+				
+					<div class="dados4">
+						<label>Bairro:</label><br>
+						<input type="text" name="bairro"><br>
+						<label>CEP:</label><br>
+						<input type="number" placeholder="00000-000" name="cep" pattern="^\d{5}-\d{4}" maxlength="11"><br>
+					
+					</div>				
+			
+			</fieldset>
+			
+			<fieldset>
+			
+				<legend>Dados da Conta</legend>
+					<div class="dadosLogin1">
+					
+						<label>Nome de Usuário:</label><br>
+						<input type="text" name="usuario" required><br>
+					</div>
+					
+					<div class="dadosLogin2">
+						<label>Senha:</label><br>
+						<input type="password" name="senha" required><br>
+					</div>			
+				
+			</fieldset>
+			
+			
+	<!--<a href="../index.html" class="botao" onclick="verifica()">entrar</a>-->
+					<div class="botao">
+						<input type="submit" value="Cadastrar">
+					</div>	
+	
+		</form>
+	
+					<!--<script>
+					function funcao1()
+					{
+					alert("Aposta Feita Com Sucesso");
+					}
+					</script>
+
+					<script type="text/javascript">
+					function acao()
+					{
+						location.href=" ../index.html"
+					}
+					</script>-->
+	
+	</section>
+	
+	
+	
+	<footer>
+		<p class="p1">®Copyright 2019</p>
+		<p class="p2">Todos os Direitos Reservados</p>
+		<p class="p3">Contato:</p>
+		
+		<a class="f" href="https://www.facebook.com" title="facebook" 
+		target="blank"><img src="../img/fab.png"> </a>
+		<a class="t" href="https://www.twitter.com" title="twitter" 
+		target="blank"><img src="../img/twit.png"> </a>
+		
+		<a class="g" href="https://www.gmail.com" title="gmail" 
+		target="blank"><img src="../img/gmail.png"> </a>
+	
+	</footer>
+	
+	</div>
+	
+</body>
+
+
+</html>

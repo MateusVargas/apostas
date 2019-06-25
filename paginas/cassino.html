@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<link rel="stylesheet" href="../css/cassino.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" 
+		integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+		
+		<title>Cassino</title>
+
+	</head>
+
+
+<body>
+	<div class="container">
+	
+	<header>
+	    <div class="nomeSite">
+			<marquee> Apostas Esportivas.tv </marquee>
+		</div>
+		
+		<div class="logo">
+		    <img src="../img/1234.png">
+		</div>
+		
+		<div class="login">
+		    <a href="login.html">Login</a>
+			<a href="cadastro.html">Cadastro</a>
+		</div>
+		
+	
+
+	<div class="menu">
+		<nav>
+			<ul>
+           
+		    
+				<li><a href="../index.html">Ao Vivo</a></li>
+				<li><a href="futebol.html">Futebol</a></li>
+				<li><a href="basquete.html">Basquete</a></li>				
+				<li><a href="#">Outros Esportes</a>
+				
+					<ul>
+				
+						<li><a href="tenis.html">Tênis</a></li>
+						<li><a href="cassino.html">Cassino</a></li>
+				
+					</ul>			
+				
+				</li>				
+				
+            </ul>
+      
+		</nav>
+   
+   	
+   
+    </div>
+		
+		
+	</header>
+	
+	
+	<section>
+		<div id="bingo-wrapper">
+			<div id="frame1">
+				<img src="bingo.png" alt="Bingo" width="200" height="40" style="margin-top:20px;" />
+			</div>
+				<div id="card">
+					<h3 class="card-header">SEUS NÚMEROS</h3>
+						<div id="b-card">
+							<div class="num" id="num1" style="float:left;"></div>
+							<div class="num" id="num2" style="float:left;"></div>
+							<div class="num" id="num3" style="float:left;"></div>
+							<div class="num" id="num4" style="float:left;"></div>
+							<div class="num" id="num5" style="float:left;margin-left:46px;"></div>
+							<div class="num" id="num6" style="float:left;"></div>
+							<div class="num" id="num7" style="float:left;"></div>
+							<div class="num" id="num8" style="float:left;"></div>
+							<div class="num" id="num9" style="float:left;"></div>
+							<div class="num" id="num10" style="float:left;margin-left:46px;"></div>
+							<div class="num" id="num11" style="float:left;"></div>
+							<div class="num" id="num12" style="float:left;"></div>
+							<div class="num" id="num13" style="float:left;"></div>
+						</div>
+						
+					<div id="i-card">
+						<div class="num"  id="num14"></div>
+						<div class="num" id="num15"></div>
+						<div class="num" id="num16"></div>
+						<div class="num" id="num17"></div>
+						<div class="num"  id="num18"></div>
+					</div>
+				
+					<div id="bingo-btn">
+						<input type="button" id="bingoclaim" onclick="bingo();" value="Bingo" />
+					</div>
+					
+				</div>
+					<div id="poll-wrap">
+						<h4>Bingo Poll</h4>
+						<div id="poll"></div>
+						<input type="button" class="bingo-btn" value="Start Game" onclick="setGenerator()" id="setgen" />
+					</div>
+		</div>
+	</section>
+	
+	
+	
+	
+	<script type="text/javascript">
+	var change, count=0, myVar;
+	var rnum = [];
+	var num = [];
+	function bingo(){
+		for(var i=1;i<=18;i++){
+			num[i] = document.getElementById('num'+i);
+		}
+		if(num[1].value == "1" && num[2].value == "1" && num[3].value == "1" && 
+		num[4].value == "1" && num[5].value == "1" &&     num[6].value == "1" && 
+		num[7].value == "1" && num[8].value == "1" && num[9].value == "1" && 
+		num[10].value == "1" && num[11].value == "1" && num[12].value == "1" && 
+		num[13].value == "1" && num[14].value == "1" && num[15].value == "1" && 
+		num[16].value == "1" && num[17].value == "1" && num[18].value == "1"){
+			alert("PARABÉNS VOCÊ ACERTOU TODOS OS NÚMEROS!!!");
+		}else{
+			alert("VOCÊ PERDEU, CONFIRA QUANTOS NÚMEROS VOCÊ ACERTOU!!");
+		}
+	}
+	function setGenerator(){
+		document.getElementById('setgen').disabled = "disabled";
+		gen();
+		setInterval(function(){ gen(); },100);
+	}
+	function gen(){
+		var g, called, numbers_called;
+		count++;
+		if(count<=80){
+			g = Math.floor((Math.random()*60)+1);
+			numbers_called = document.getElementById('poll');
+			numbers_called.innerHTML += "<div class='num-style'>"+g+"</ div>"; 
+			check(g);
+		}
+	}
+	function cross(e){
+		change = e.target;
+		change.value = '1';
+		change.style.backgroundImage="url('tick.jpg')";
+	}
+	function check(g1){
+		for(var i=1;i<=18;i++){
+			num[i].onmousedown = false;
+			if(g1 == rnum[i]){
+				num[i] = document.getElementById('num'+i);
+				num[i].onmousedown = cross;
+			}
+		}
+	}
+	function do_first(){
+		for(var i=1;i<=18;i++){
+			rnum[i] = Math.floor((Math.random()*60)+1);
+			num[i] = document.getElementById('num'+i);
+			num[i].innerHTML = rnum[i];
+		}
+	}
+	window.addEventListener('load',do_first,false);
+	</script>
+	
+	
+	
+	<footer>
+		<p class="p1">®Copyright 2019</p>
+		<p class="p2">Todos os Direitos Reservados</p>
+		<p class="p3">Contato:</p>
+		
+		<a class="f" href="https://www.facebook.com" title="facebook" 
+		target="blank"><img src="../img/fab.png"> </a>
+		<a class="t" href="https://www.twitter.com" title="twitter" 
+		target="blank"><img src="../img/twit.png"> </a>
+		
+		<a class="g" href="https://www.gmail.com" title="gmail" 
+		target="blank"><img src="../img/gmail.png"> </a>
+	
+	</footer>
+	
+	
+	</div>
+	
+
+	
+</body>
+
+
+
+
+</html>

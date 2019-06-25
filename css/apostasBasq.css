@@ -1,0 +1,541 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.logo{
+    float: left;
+    position: absolute;
+    top: 8px;
+}
+ .menu nav .hamburger{
+		display: none;
+}
+
+.nomeSite{
+    color: white;
+    text-transform: uppercase;
+    font-size: 23px;
+	font-family: verdana;
+	top: 10px;
+	position: relative;
+    width: 500px;
+    left: 300px;
+}
+.login{
+    float: right;
+}
+img{
+	width: 250px;
+	height: 65px;
+    margin-top: 3px;
+    margin-left: 3px;
+}
+
+body{
+	overflow-x: hidden;
+	background-color: teal;
+}
+.container{
+    width: 960px;
+    margin: auto;
+    background-color: white;
+    height: 100%;
+}
+
+header{
+    width: 100%;
+    height: 90px;
+	position: fixed;
+    background: #00008b;
+    z-index: 1;
+	top: 0px;
+	left: 0px;
+    text-align: center;
+}
+
+.login a{
+	float: right;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 15px;
+	padding: 20px;
+	font-family: verdana;
+	margin-right: 30px;
+}
+.login a:hover{
+	color: yellow;
+    border-bottom: 2px solid yellow;
+}
+
+.menu{   
+	background-color: red;
+	width: 100%;
+	height: 50px;
+    clear: both;
+    position: relative;
+}
+
+.menu nav li{
+	display: inline-block;
+	padding: 10px;
+	text-transform: uppercase;
+    margin-right: 0px;
+}
+
+.menu li a:hover{
+    border-bottom: 3px solid white;	
+}
+
+.menu li a{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 15px;
+	font-family: verdana;
+	padding: 10px;
+	margin-left: 50px;
+    margin-right: 50px;
+	background-color: red;
+}
+.menu nav ul li{
+	position: relative;
+}
+
+li ul{
+	position: absolute;
+	left: 0px;
+	top: 40px;
+	display: none;
+}
+
+ul li ul li ul{
+    width: 170px;
+    position: absolute;
+    left: 170px;
+    top: 0px;
+}
+
+li:hover ul{
+    display: block;
+}
+
+li ul li ul li{
+    display: none;
+}
+
+.menu nav ul li ul li:hover li{
+    display: block;
+}
+
+section:first-of-type{
+    margin-top: 123px;
+}
+
+.vencedor{
+	position: relative;
+	padding: 30px;
+	background-color: gold;
+}
+.vencedor h2{
+	position: absolute;
+	top: 20%;
+	left: 40%;
+}
+.vencedor table td{
+	width: 10%;
+	font-size: 15px;
+	padding-left: 60px;
+	padding-top: 5%;
+	text-transform: uppercase;
+}
+.pontos{
+	position: relative;
+	padding: 150px;
+	background-color: white;
+}
+.pontos h2{
+	position: absolute;
+	top: 10px;
+	left: 40%;
+}
+.pontos table{
+	left: 23%;
+	top: 50px;
+	position: absolute;
+	border-collapse: collapse;
+}
+.pontos table td{
+	width: 35%;
+	height: 25px;
+	padding-left: 90px;
+}
+
+
+
+.valores{
+		padding: 80px;
+		position: relative;
+	/*	background-color: lightseagreen;*/
+		background-image: url("../img/fundoddd1.jpg");
+}
+.valores label{
+	position: absolute;
+	font-weight: bold;
+	top: 30%;
+	left: 10%;
+	font-size: 20px;
+	font-family: verdana;
+	-webkit-text-stroke: 1px;
+	-webkit-text-stroke-color: red;
+}
+.valores select{
+	width: 160px;
+	padding: 10px;
+	position: absolute;
+	right: 20%;
+	top: 27%;
+	border-radius: 30px;
+	border: 1px solid;
+}
+.valores input{
+	position: absolute;
+	left: 32%;
+	top: 28%;
+	width: 20%;
+	border-radius: 30px;
+	border: 1px solid;
+	padding: 7px;
+}
+.valores .botao{
+	text-align: center;
+	padding: 10px;
+	text-decoration: none;
+	background-color: white;
+	border-radius: 30px;
+	position: absolute;
+	bottom: 30px;
+	left: 45%;
+	border: 1px solid red;
+	font-weight: bold;
+}
+
+footer{
+	position: relative;
+	padding: 60px;
+	background-color: lightgray;
+}
+footer img{
+	width: 40px;
+	height: 30px;
+}
+footer .p1{
+	position: absolute;
+	font-family: verdana;
+	left: 45%;
+	top: 72px;
+	font-size: 15px;
+}
+footer .p2{
+	position: absolute;
+	font-family: verdana;
+	left: 42%;
+	top: 100px;
+	font-size: 13px;
+}
+footer .p3{
+	position: absolute;
+	font-weight: bold;
+	font-family: verdana;
+	left: 40%;
+	top: 46px;
+	font-size: 13px;
+}
+footer .f{
+	position: absolute;
+	left: 48%;
+	top: 35px;
+}
+footer .t{
+	position: absolute;
+	left: 54%;
+	top: 35px;
+}
+footer .g{
+	position: absolute;
+	left: 60%;
+	top: 35px;
+}
+
+
+
+@media only screen and (min-width: 620px) and (max-width: 980px){
+	
+	.menu li a{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+	.menu nav li{
+	margin-right: -9px;
+	}
+	
+
+    .container{
+        width: 100%;
+    }
+    
+    .nomeSite{
+        width: 100%;
+        left: 50%;
+        right: 50%;
+    }
+	.pontos table{
+		left: 10%;
+	}
+}
+
+
+@media only screen and (min-width: 420px) and (max-width: 600px){
+		section:first-of-type{
+    margin-top: 105px;
+	}
+    .logo img{
+        width: 145px;
+		height: 40px;
+		position: absolute;
+    }
+    .container{
+        width: 100%;
+    }
+	.login a{
+	float: right;
+	text-decoration: none;
+	font-size: 15px;
+	padding: 10px;
+	margin-right: 10px;
+	}
+	.nomeSite{
+    font-size: 15px;
+	top: 15px;
+    width: 100%;
+    left: 30%;
+        
+	}
+	.menu nav{
+	position: relative;
+	width: 100%;
+	}
+	.menu nav li a{
+	width: 100%;
+	position: relative;
+	text-decoration: none;
+	font-size: 10px;
+	margin-left: -20px;
+	margin-right: 5px;
+}
+
+	footer img{
+	width: 30px;
+	height: 20px;
+	}
+	footer .p1{
+	left: 40%;
+	top: 55%;
+	}
+	footer .p2{
+	left: 34%;
+	top: 77%;
+	}
+	footer .p3{
+	left: 30%;
+	top: 33%;
+	}
+	footer .f{
+	left: 48%;
+	}
+	footer .t{
+	left: 55%;
+	}
+	footer .g{
+	left: 62%;
+	}
+	
+	.vencedor h2{
+	font-size: 15px;
+	left: 35%;
+}
+.vencedor table td{
+	width: 20%;
+	padding-left: 15px;
+	font-size: 10px;
+}
+.pontos h2{
+	font-size: 17px;
+	left: 20%;
+}
+.pontos table{
+	left: 3%;
+}
+.pontos table td{
+	padding-left: 15px;
+	height: 22px;
+}
+
+.valores label{
+	top: 10px;
+	left: 35%;
+}
+.valores select{
+	width: 140px;
+	padding: 5px;
+	left: 36%;
+	top: 75px;
+}
+.valores input{
+	top: 37px;
+	width: 115px;
+	padding: 5px;
+	left: 38%;
+}
+.valores .botao{
+	padding: 7px 10px;
+	left: 37%;
+	bottom: 15px;
+}
+
+}
+
+@media only screen and (max-width: 420px){
+			body{
+	overflow-x: hidden;
+	}
+	
+	section:first-of-type{
+    margin-top: 75px;
+}
+    .container{
+		width: 100%;
+	}
+    .container{
+        width: 100%;
+    }
+    
+    header{
+	width: 100%;
+	height: 50px;
+	position: fixed;
+	z-index: 1;
+	}
+    
+	.nomeSite{
+ 	font-size: 9px;
+	top: 30px;
+	position: absolute;
+	left: 90px;
+	}
+	.login a{
+	font-size: 10px;
+	padding: 10px;
+	position: relative;	
+	}
+	
+	.menu nav{
+		width: 100%;
+		margin-top: 20px;
+		clear: both;
+	}
+	
+	.menu{
+        width: 100%;
+		clear: both;
+        position: relative;
+        top: 17px;
+        height: 40px;
+	}
+
+    .menu li a{
+	font-size: 11px;
+	padding: 1px;
+	letter-spacing: -2px;
+	margin-inline-start: -22px;
+	margin-inline-end: 0px;
+}  
+    .logo img{
+        width: 70px;
+        height: 30px;
+		position: absolute;
+    }
+    
+    .login a:hover{
+    border-bottom: 1px solid yellow;
+    }
+	
+		footer img{
+	width: 30px;
+	height: 20px;
+	}
+	footer .p1{
+	left: 25%;
+	top: 55%;
+	}
+	footer .p2{
+	left: 13%;
+	top: 77%;
+	}
+	footer .p3{
+	left: 12%;
+	top: 33%;
+	}
+	footer .f{
+	left: 38%;
+	}
+	footer .t{
+	left: 53%;
+	}
+	footer .g{
+	left: 70%;
+	}
+
+.vencedor h2{
+	font-size: 15px;
+	left: 35%;
+}
+.vencedor table td{
+	width: 20%;
+	padding-left: 15px;
+	font-size: 10px;
+}
+.pontos h2{
+	font-size: 17px;
+	left: 20%;
+}
+.pontos table{
+	left: 3%;
+}
+.pontos table td{
+	padding-left: 15px;
+	height: 22px;
+}
+
+.valores label{
+	top: 10px;
+	left: 25%;
+}
+.valores select{
+	width: 140px;
+	padding: 5px;
+	left: 29%;
+	top: 72px;
+}
+.valores input{
+	top: 33px;
+	width: 115px;
+	padding: 5px;
+}
+.valores .botao{
+	padding: 7px 10px;
+	left: 30%;
+	bottom: 10px;
+}
+
+}

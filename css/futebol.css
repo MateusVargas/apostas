@@ -1,0 +1,1495 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.logo{
+    float: left;
+    position: absolute;
+    top: 8px;
+}
+
+.nomeSite{
+    color: white;
+    text-transform: uppercase;
+    font-size: 23px;
+	font-family: verdana;
+	top: 10px;
+	position: relative;
+    width: 500px;
+    left: 300px;
+}
+.login{
+    float: right;
+}
+img{
+	width: 250px;
+	height: 65px;
+    margin-top: 3px;
+    margin-left: 3px;
+}
+
+body{
+	background-color: teal;
+	overflow-x: hidden;
+}
+.container{
+    width: 960px;
+    margin: auto;
+    background-color: white;
+    height: 100%;
+}
+
+header{
+    width: 100%;
+    height: 90px;
+	position: fixed;
+    background: #00008b;
+    z-index: 1;
+	top: 0px;
+	left: 0px;
+    text-align: center;
+}
+
+.login a{
+	float: right;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 15px;
+	padding: 20px;
+	font-family: verdana;
+	margin-right: 30px;
+}
+.login a:hover{
+	color: yellow;
+    border-bottom: 2px solid yellow;
+}
+
+.menu{   
+	background-color: red;
+	width: 100%;
+	height: 50px;
+    clear: both;
+    position: relative;
+}
+
+.menu nav li{
+	display: inline-block;
+	padding: 10px;
+	text-transform: uppercase;
+    margin-right: 0px;
+}
+
+.menu li a:hover{
+    border-bottom: 3px solid white;	
+}
+
+.menu li a{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 15px;
+	font-family: verdana;
+	padding: 10px;
+	margin-left: 50px;
+    margin-right: 50px;
+	background-color: red;
+}
+.menu nav ul li{
+	position: relative;
+}
+
+li ul{
+	position: absolute;
+	left: 0px;
+	top: 40px;
+	display: none;
+}
+
+ul li ul li ul{
+    width: 170px;
+    position: absolute;
+    left: 170px;
+    top: 0px;
+}
+
+li:hover ul{
+    display: block;
+}
+
+li ul li ul li{
+    display: none;
+}
+
+.menu nav ul li ul li:hover li{
+    display: block;
+}
+
+section:first-of-type{
+    margin-top: 135px;
+}
+
+footer{
+	position: relative;
+	padding: 60px;
+	background-color: lightgray;
+}
+footer img{
+	width: 40px;
+	height: 30px;
+}
+footer .p1{
+	position: absolute;
+	font-family: verdana;
+	left: 45%;
+	top: 72px;
+	font-size: 15px;
+}
+footer .p2{
+	position: absolute;
+	font-family: verdana;
+	left: 42%;
+	top: 100px;
+	font-size: 13px;
+}
+footer .p3{
+	position: absolute;
+	font-weight: bold;
+	font-family: verdana;
+	left: 40%;
+	top: 46px;
+	font-size: 13px;
+}
+footer .f{
+	position: absolute;
+	left: 48%;
+	top: 35px;
+}
+footer .t{
+	position: absolute;
+	left: 54%;
+	top: 35px;
+}
+footer .g{
+	position: absolute;
+	left: 60%;
+	top: 35px;
+}
+section{
+	position: relative;
+	padding: 190px;
+}
+
+.links{
+	position: relative;
+	padding: 10px;
+}
+.links img{
+	width: 180px;
+	height: 120px;
+}
+
+input{
+	width: 160px;
+	padding: 5px;
+	border-radius: 30px;
+	margin: 10px;
+}
+
+.c1{
+	background-image: url("../img/fundoLib.jpg");
+	background: cover;
+}
+.c1 img{
+	width: 90px;
+	height: 90px;
+	position: absolute;
+}
+.c1 h3{
+	color: white;
+	font-family: verdana;
+	font-size: 25px;
+	top: 15px;
+	text-align: center;
+	margin-top: -30%;
+}
+
+.c1 .boc{
+	top: 75px;
+	left: 115px;
+}
+.c1 .riv{
+	top: 75px;
+	left: 260px;
+}
+.c1 .galo{
+	top: 75px;
+	right: 100px;
+}
+.c1 .mil{
+	top: 80px;
+	right: 240px;
+}
+.c1 .pal{
+	bottom: 65px;
+	left: 110px;
+}
+.c1 .cerro{
+	bottom: 63px;
+	left: 260px;
+}
+.c1 .slo{
+	bottom: 60px;
+    right: 100px;
+}
+.c1 .lib{
+	width: 180px;
+	height: 160px;
+	top: 115px;
+	left: 400px;
+}
+
+.c1 .int{
+	bottom: 55px;
+	right: 240px;
+}
+.c1 .b1{
+	padding: 5px 32px;
+	position: absolute;
+	left: 17%;
+	background-color: white;
+	border-radius: 30px;
+	text-decoration: none;
+	font-weight: bold;
+	top: 45%;
+}
+
+.c1 .b2{
+	padding: 5px 32px;
+	position: absolute;
+	left: 17%;
+	background-color: white;
+	border-radius: 30px;
+	text-decoration: none;
+	font-weight: bold;
+	bottom: 10px;
+}
+.c1 .b3{
+	padding: 5px 32px;
+	position: absolute;
+	right: 17%;
+	background-color: white;
+	border-radius: 30px;
+	text-decoration: none;
+	font-weight: bold;
+	top: 45%;
+}
+.c1 .b4{
+	padding: 5px 32px;
+	position: absolute;
+	right: 17%;
+	background-color: white;
+	border-radius: 30px;
+	text-decoration: none;
+	font-weight: bold;
+	bottom: 10px;
+}
+
+
+
+
+.c2{
+	background-size:cover;
+	background-image: url("../img/fundoChamp.jpg");
+}
+.c2 img{
+	position: absolute;
+	width: 95px;
+	height: 95px;
+}
+.c2 .logo{
+	width: 200px;
+	height: 200px;
+	top: 70px;
+}
+.c2 .barca{
+	top: 20px;
+	right: 400px;
+}
+.c2 .psg{
+	top: 20px;
+	right: 230px;
+}
+.c2 .psv{
+	top: 130px;
+	right: 400px;
+}
+.c2 .bvb{
+	top: 130px;
+	right: 230px;
+}
+.c2 .roma{
+	bottom: 30px;
+	right: 400px;
+}
+.c2 .lyon{
+	bottom: 30px;
+	right: 230px;
+}
+.c2 .b1{
+	padding: 5px 32px;
+	position: absolute;
+	right: 6%;
+	background-color: white;
+	border-radius: 30px;
+	text-decoration: none;
+	font-weight: bold;
+	top: 15%;
+}
+.c2 .b2{
+	padding: 5px 32px;
+	position: absolute;
+	right: 6%;
+	background-color: white;
+	border-radius: 30px;
+	text-decoration: none;
+	font-weight: bold;
+	top: 45%;
+}
+.c2 .b3{
+	padding: 5px 32px;
+	position: absolute;
+	right: 6%;
+	background-color: white;
+	border-radius: 30px;
+	text-decoration: none;
+	font-weight: bold;
+	bottom: 18%;
+}
+
+
+
+
+.c3{
+	background-size:cover;
+	background-image: url("../img/fundoBras.jpg");
+}
+.c3 h2{
+	position: absolute;
+	left: 120px;
+	top: 20px;
+	font-family: verdana;
+	color: purple;
+	font-size: 22px;
+}
+.c3 img{
+	position: absolute;
+	width: 170px;
+	height: 130px;
+}
+.c3 .logo{
+	right: 100px;
+	top: 160px;
+}
+.c3 .gremio{
+	left: 20px;
+	top: 60px;
+}
+.c3 .cor{
+	left: 200px;
+	top: 65px;
+}
+.c3 .bah{
+	top: 225px;
+	left: 20px;
+}
+.c3 .fla{
+	left: 200px;
+	top: 225px;
+}
+.c3 .b1{
+	padding: 5px 32px;
+	position: absolute;
+	left: 43%;
+	background-color: white;
+	border-radius: 30px;
+	text-decoration: none;
+	font-weight: bold;
+	top: 30%;
+}
+.c3 .b2{
+	padding: 5px 32px;
+	position: absolute;
+	left: 43%;
+	background-color: white;
+	border-radius: 30px;
+	text-decoration: none;
+	font-weight: bold;
+	top: 72%;
+}
+
+
+
+
+.c4{
+	background-size:cover;
+	background-image: url("../img/fundoMundial.jpg");
+}
+.c4 h2{
+	position: absolute;
+	right: 165px;
+	top: 85px;
+	color: white;
+}
+.c4 h3{
+	position: absolute;
+	top: 115px;
+	right: 165px;
+	color: white;
+}
+.c4 img{
+	width: 160px;
+	height: 150px;
+	position: absolute;
+}
+.c4 .mun{
+	width: 325px;
+	height: 190px;
+	top: 85px;
+	left: 120px;
+}
+.c4 .al{
+	top: 125px;
+	right: 20px;
+}
+.c4 .rma{
+	right: 240px;
+	top: 125px;
+}
+.c4 .b1{
+	padding: 5px 32px;
+	position: absolute;
+	right: 16%;
+	background-color: white;
+	border-radius: 30px;
+	text-decoration: none;
+	font-weight: bold;
+	bottom: 15%;
+}
+
+
+
+
+
+
+.c5{
+	background-size:cover;
+	background-image: url("../img/fundoit.jpg");
+}
+.c5 img{
+	position: absolute;
+	width: 120px;
+	height: 125px;
+}
+.c5 .milan{
+	right: 15px;
+	top: 100px;
+}
+.c5 .laz{
+	right: 155px;
+	top: 105px;
+}
+.c5 .parma{
+	left: 160px;
+	top: 100px;
+}
+.c5 .gen{
+	left: 20px;
+	top: 105px;
+}
+.c5 .b1{
+	padding: 5px 32px;
+	position: absolute;
+	left: 10%;
+	background-color: white;
+	border-radius: 30px;
+	text-decoration: none;
+	font-weight: bold;
+	top: 65%
+}
+.c5 .b2{
+	padding: 5px 32px;
+	position: absolute;
+	right: 10%;
+	background-color: white;
+	border-radius: 30px;
+	text-decoration: none;
+	font-weight: bold;
+	top: 65%
+}
+
+.apostaCopa{
+	background-size:cover;
+	background-image: url("../img/fundoap.jpg");
+}
+.apostaCopa h2{
+	position: absolute;
+	top: 10%;
+	left: 25%;
+	color: blue;
+}
+.apostaCopa .valor{
+	position: absolute;
+	left: 32%;
+	bottom: 26%;
+	width: 20%;
+	border-radius: 30px;
+	border: 1px solid;
+	padding: 10px;
+}
+.apostaCopa label{
+	font-weight: bold;
+	bottom: 30%;
+	position: absolute;
+	left: 15%;
+	-webkit-text-stroke: 1px;
+	-webkit-text-stroke-color: red;
+	font-size: 20px;
+}
+.apostaCopa select{
+	width: 200px;
+	padding: 10px;
+	border-radius: 30px;
+	border: 1px solid;
+	bottom: 28%;
+	position: absolute;
+	right: 13%;
+}
+.apostaCopa .botao{
+	text-decoration: none;
+	padding: 12px 30px;
+	background-color: white;
+	border-radius: 30px;
+	position: absolute;
+	font-weight: bold;
+	border: 2px solid #ff003f;
+	left: 44%;
+	bottom: 20px;
+}
+.apostaCopa .aposta{
+	width: 200px;
+	left: 42%;
+	border-radius: 30px;
+	border: 1px solid;
+	top: 30%;
+	position: absolute;
+	height: 11%;
+}
+
+@media only screen and (min-width: 620px) and (max-width: 980px){
+	.menu li a{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+	.menu nav li{
+	margin-right: -9px;
+	}
+	
+
+    .container{
+        width: 100%;
+    }
+    
+    .nomeSite{
+        width: 100%;
+        left: 50%;
+        right: 50%;
+    }
+	
+	input{
+	width: 100px;
+	padding: 2px;
+}
+
+.links img{
+	width: 18%;
+	height: 63px;
+}
+	
+.c1 img{
+	width: 15%;
+	height: 15%
+}
+.c1 h3{
+	display: none;
+}
+
+.c1 .boc{
+	left: 2%;
+}
+.c1 .riv{
+	left: 17%;
+}
+.c1 .galo{
+	right: 18%;
+}
+.c1 .mil{
+	right: 33%;
+}
+.c1 .pal{
+	left: 2%;
+}
+.c1 .cerro{
+	left: 18%;
+}
+.c1 .slo{
+	right: 18%;
+}
+.c1 .lib{
+	display: none;
+}
+
+.c1 .int{
+	right: 35%;
+}
+.c1 .b1{
+	left: 5%;
+}
+
+.c1 .b2{
+	left: 5%;
+}
+.c1 .b3{
+	right: 18%;
+}
+.c1 .b4{
+	right: 18%;
+}
+
+
+
+.c2 img{
+	width: 15%;
+	height: 15%;
+}
+.c2 .logo{
+	width: 40%;
+	right: 3%;
+}
+.c2 .barca{
+	left: 20%;
+}
+.c2 .psg{
+	left: 40%;
+}
+.c2 .psv{
+	left: 20%;
+}
+.c2 .bvb{
+	left: 40%;
+}
+.c2 .roma{
+	left: 20%;
+	top: 65%;
+}
+.c2 .lyon{
+	left: 40%;
+	top: 65%;
+}
+.c2 .b1{
+	left: 29%;
+	top: 23%;
+	width: 50px;
+}
+.c2 .b2{
+	left: 29%;
+	top: 52%;
+	width: 50px;
+}
+.c2 .b3{
+	left: 29%;
+	bottom: 25px;
+	width: 50px;
+}
+
+
+
+.c3 h2{
+	left: 20%;
+}
+.c3 img{
+	width: 22%;
+	height: 20%;
+}
+.c3 .logo{
+	display: none;
+}
+.c3 .gremio{
+	left: 18%;
+}
+.c3 .cor{
+	left: 43%;
+}
+.c3 .bah{
+	left: 18%;
+}
+.c3 .fla{
+	left: 43%;
+}
+.c3 .b1{
+	left: 30%;
+	top: 140px;
+}
+.c3 .b2{
+	top: 310px;
+	left: 30%;
+}
+
+
+
+
+.c4 h2{
+	display: none;
+}
+.c4 h3{
+	display: none;
+}
+.c4 img{
+	width: 25%;
+	height: 25%;
+}
+.c4 .mun{
+	width: 60%;
+	height: 25%;
+	left: 14%;
+	top: 20px;
+}
+.c4 .al{
+	top: 145px;
+	left: 50%;
+}
+.c4 .rma{
+	left: 15%;
+	top: 145px;
+}
+.c4 .b1{
+	left: 30%;
+	bottom: 60px;
+	width: 50px;
+}
+
+
+
+.c5 img{
+	width: 20%;
+	height: 20%;
+}
+.c5 .milan{
+	top: 50%;
+	left: 45%;
+}
+.c5 .laz{
+	top: 50%;
+	left: 20%;
+}
+.c5 .parma{
+	left: 45%;
+	top: 35px;
+}
+.c5 .gen{
+	left: 20%;
+	top: 40px;
+}
+.c5 .b1{
+	top: 125px;
+	left: 28%;
+}
+.c5 .b2{
+	left: 28%;
+	top: 75%;
+	width: 50px;
+}
+.apostaCopa h2{
+	text-align: center;
+	font-size: 17px;
+}
+
+.apostaCopa label{
+	top: 39%;
+	left: 43%;
+}
+.apostaCopa select{
+	width: 140px;
+	padding: 5px;
+	left: 45%;
+	top: 65%;
+	height: 10%;
+}
+.apostaCopa .valor{
+	top: 45%;
+	width: 115px;
+	padding: 5px;
+	height: 6%;
+	left: 45%;
+}
+.apostaCopa .botao{
+	padding: 7px 10px;
+	left: 46%;
+	bottom: 10px;
+}
+.apostaCopa .aposta{
+	width: 140px;
+	padding: 5px;
+	left: 45%;
+	top: 78px;
+	height: 10%;
+}
+	
+}
+
+
+@media only screen and (min-width: 420px) and (max-width: 600px){
+			section:first-of-type{
+    margin-top: 105px;
+	}
+    .logo img{
+        width: 145px;
+		height: 40px;
+		position: absolute;
+    }
+    .container{
+        width: 100%;
+    }
+	.login a{
+	float: right;
+	text-decoration: none;
+	font-size: 15px;
+	padding: 10px;
+	margin-right: 10px;
+	}
+	.nomeSite{
+    font-size: 15px;
+	top: 15px;
+    width: 100%;
+    left: 30%;
+        
+	}
+	.menu nav{
+	position: relative;
+	width: 100%;
+	}
+	.menu nav li a{
+	width: 100%;
+	position: relative;
+	text-decoration: none;
+	font-size: 10px;
+	margin-left: -20px;
+	margin-right: 5px;
+}
+
+	footer img{
+	width: 30px;
+	height: 20px;
+	}
+	footer .p1{
+	left: 40%;
+	top: 55%;
+	}
+	footer .p2{
+	left: 34%;
+	top: 77%;
+	}
+	footer .p3{
+	left: 30%;
+	top: 33%;
+	}
+	footer .f{
+	left: 48%;
+	}
+	footer .t{
+	left: 55%;
+	}
+	footer .g{
+	left: 62%;
+	}
+	
+input{
+	width: 100px;
+	padding: 2px;
+}
+
+.links img{
+	width: 18%;
+	height: 63px;
+}
+	
+.c1 img{
+	width: 15%;
+	height: 15%
+}
+.c1 h3{
+	display: none;
+}
+
+.c1 .boc{
+	left: 2%;
+}
+.c1 .riv{
+	left: 17%;
+}
+.c1 .galo{
+	right: 18%;
+}
+.c1 .mil{
+	right: 33%;
+}
+.c1 .pal{
+	left: 2%;
+}
+.c1 .cerro{
+	left: 18%;
+}
+.c1 .slo{
+	right: 18%;
+}
+.c1 .lib{
+	display: none;
+}
+
+.c1 .int{
+	right: 35%;
+}
+.c1 .b1{
+	left: 5%;
+}
+
+.c1 .b2{
+	left: 5%;
+}
+.c1 .b3{
+	right: 18%;
+}
+.c1 .b4{
+	right: 18%;
+}
+
+
+
+.c2 img{
+	width: 15%;
+	height: 15%;
+}
+.c2 .logo{
+	width: 40%;
+	right: 3%;
+}
+.c2 .barca{
+	left: 20%;
+}
+.c2 .psg{
+	left: 40%;
+}
+.c2 .psv{
+	left: 20%;
+}
+.c2 .bvb{
+	left: 40%;
+}
+.c2 .roma{
+	left: 20%;
+	top: 65%;
+}
+.c2 .lyon{
+	left: 40%;
+	top: 65%;
+}
+.c2 .b1{
+	left: 29%;
+	top: 23%;
+	width: 50px;
+}
+.c2 .b2{
+	left: 29%;
+	top: 52%;
+	width: 50px;
+}
+.c2 .b3{
+	left: 29%;
+	bottom: 25px;
+	width: 50px;
+}
+
+
+
+.c3 h2{
+	left: 20%;
+}
+.c3 img{
+	width: 22%;
+	height: 20%;
+}
+.c3 .logo{
+	display: none;
+}
+.c3 .gremio{
+	left: 18%;
+}
+.c3 .cor{
+	left: 43%;
+}
+.c3 .bah{
+	left: 18%;
+}
+.c3 .fla{
+	left: 43%;
+}
+.c3 .b1{
+	left: 30%;
+	top: 140px;
+}
+.c3 .b2{
+	top: 310px;
+	left: 30%;
+}
+
+
+
+
+.c4 h2{
+	display: none;
+}
+.c4 h3{
+	display: none;
+}
+.c4 img{
+	width: 25%;
+	height: 25%;
+}
+.c4 .mun{
+	width: 60%;
+	height: 25%;
+	left: 14%;
+	top: 20px;
+}
+.c4 .al{
+	top: 145px;
+	left: 50%;
+}
+.c4 .rma{
+	left: 15%;
+	top: 145px;
+}
+.c4 .b1{
+	left: 30%;
+	bottom: 60px;
+	width: 50px;
+}
+
+
+
+.c5 img{
+	width: 20%;
+	height: 20%;
+}
+.c5 .milan{
+	top: 50%;
+	left: 45%;
+}
+.c5 .laz{
+	top: 50%;
+	left: 20%;
+}
+.c5 .parma{
+	left: 45%;
+	top: 35px;
+}
+.c5 .gen{
+	left: 20%;
+	top: 40px;
+}
+.c5 .b1{
+	top: 125px;
+	left: 28%;
+}
+.c5 .b2{
+	left: 28%;
+	top: 75%;
+	width: 50px;
+}
+
+.apostaCopa h2{
+	font-size: 18px;
+	left: 9%;
+}
+
+.apostaCopa label{
+	top: 39%;
+	left: 33%;
+}
+.apostaCopa select{
+	width: 140px;
+	padding: 5px;
+	left: 35%;
+	top: 65%;
+	height: 10%;
+}
+.apostaCopa .valor{
+	top: 45%;
+	width: 115px;
+	padding: 5px;
+	height: 6%;
+	left: 35%;
+}
+.apostaCopa .botao{
+	padding: 7px 10px;
+	left: 36%;
+	bottom: 10px;
+}
+.apostaCopa .aposta{
+	width: 140px;
+	padding: 5px;
+	left: 35%;
+	top: 78px;
+	height: 10%;
+}
+
+	
+}
+
+
+@media only screen and (max-width: 420px){
+	section:first-of-type{
+    margin-top: 90px;
+}
+    .container{
+		width: 100%;
+	}
+	
+    .menu nav .hamburger{
+    top: 10px;
+	position: absolute;
+	margin-left: 50%;
+	color: wheat;
+	clear: both;
+}
+    .container{
+        width: 100%;
+    }
+    
+    header{
+	width: 100%;
+	height: 50px;
+	position: fixed;
+	z-index: 1;
+	}
+    
+	.nomeSite{
+ 	font-size: 9px;
+	top: 30px;
+	position: absolute;
+	left: 90px;
+	}
+	.login a{
+	font-size: 10px;
+	padding: 10px;
+	position: relative;	
+	}
+	
+	.menu nav{
+		width: 100%;
+		margin-top: 20px;
+		clear: both;
+	}
+	
+	.menu{
+        width: 100%;
+		clear: both;
+        position: relative;
+        top: 17px;
+        height: 40px;
+	}
+
+    .menu li a{
+	font-size: 11px;
+	padding: 1px;
+	letter-spacing: -2px;
+	margin-inline-start: -22px;
+	margin-inline-end: 0px;
+}  
+    .logo img{
+        width: 70px;
+        height: 30px;
+		position: absolute;
+    }
+    
+    .login a:hover{
+	color: yellow;
+    border-bottom: 1px solid yellow;
+    }
+	
+		footer img{
+	width: 30px;
+	height: 20px;
+	}
+	footer .p1{
+	left: 25%;
+	top: 55%;
+	}
+	footer .p2{
+	left: 13%;
+	top: 77%;
+	}
+	footer .p3{
+	left: 12%;
+	top: 33%;
+	}
+	footer .f{
+	left: 38%;
+	}
+	footer .t{
+	left: 53%;
+	}
+	footer .g{
+	left: 70%;
+	}
+	
+	input{
+	width: 100px;
+	padding: 2px;
+}
+
+.links img{
+	width: 18%;
+	height: 60px;
+}
+	
+.c1 img{
+	width: 15%;
+	height: 15%
+}
+.c1 h3{
+	display: none;
+}
+
+.c1 .boc{
+	left: 2%;
+}
+.c1 .riv{
+	left: 17%;
+}
+.c1 .galo{
+	right: 18%;
+}
+.c1 .mil{
+	right: 33%;
+}
+.c1 .pal{
+	left: 2%;
+}
+.c1 .cerro{
+	left: 18%;
+}
+.c1 .slo{
+	right: 18%;
+}
+.c1 .lib{
+	display: none;
+}
+
+.c1 .int{
+	right: 35%;
+}
+.c1 .b1{
+	left: 5%;
+}
+
+.c1 .b2{
+	left: 5%;
+}
+.c1 .b3{
+	right: 18%;
+}
+.c1 .b4{
+	right: 18%;
+}
+
+
+
+.c2 img{
+	width: 15%;
+	height: 15%;
+}
+.c2 .logo{
+	width: 40%;
+	left: 41%;
+}
+.c2 .barca{
+	left: 10px;
+}
+.c2 .psg{
+	left: 70px;
+}
+.c2 .psv{
+	left: 10px;
+}
+.c2 .bvb{
+	left: 70px;
+}
+.c2 .roma{
+	left: 10px;
+	top: 65%;
+}
+.c2 .lyon{
+	left: 70px;
+	top: 65%;
+}
+.c2 .b1{
+	left: 5%;
+	top: 23%;
+	width: 50px;
+}
+.c2 .b2{
+	left: 5%;
+	top: 52%;
+	width: 50px;
+}
+.c2 .b3{
+	left: 5%;
+	bottom: 25px;
+	width: 50px;
+}
+
+
+
+.c3 h2{
+	left: 20%;
+}
+.c3 img{
+	width: 22%;
+	height: 20%;
+}
+.c3 .logo{
+	display: none;
+}
+.c3 .gremio{
+	left: 18%;
+}
+.c3 .cor{
+	left: 43%;
+}
+.c3 .bah{
+	left: 18%;
+}
+.c3 .fla{
+	left: 43%;
+}
+.c3 .b1{
+	left: 30%;
+	top: 140px;
+}
+.c3 .b2{
+	top: 310px;
+	left: 30%;
+}
+
+
+
+
+.c4 h2{
+	display: none;
+}
+.c4 h3{
+	display: none;
+}
+.c4 img{
+	width: 25%;
+	height: 25%;
+}
+.c4 .mun{
+	width: 60%;
+	height: 25%;
+	left: 14%;
+	top: 20px;
+}
+.c4 .al{
+	top: 145px;
+	left: 50%;
+}
+.c4 .rma{
+	left: 15%;
+	top: 145px;
+}
+.c4 .b1{
+	left: 30%;
+	bottom: 60px;
+	width: 50px;
+}
+
+
+
+.c5 img{
+	width: 20%;
+	height: 20%;
+}
+.c5 .milan{
+	top: 50%;
+	left: 45%;
+}
+.c5 .laz{
+	top: 50%;
+	left: 20%;
+}
+.c5 .parma{
+	left: 45%;
+	top: 35px;
+}
+.c5 .gen{
+	left: 20%;
+	top: 40px;
+}
+.c5 .b1{
+	top: 125px;
+	left: 28%;
+}
+.c5 .b2{
+	left: 28%;
+	top: 75%;
+	width: 50px;
+}
+.apostaCopa h2{
+	font-size: 14px;
+	left: 5%;
+}
+
+.apostaCopa label{
+	top: 39%;
+	left: 28%;
+}
+.apostaCopa select{
+	width: 140px;
+	padding: 5px;
+	left: 29%;
+	top: 65%;
+	height: 10%;
+}
+.apostaCopa .valor{
+	top: 45%;
+	width: 115px;
+	padding: 5px;
+	height: 6%;
+	left: 29%;
+}
+.apostaCopa .botao{
+	padding: 7px 10px;
+	left: 30%;
+	bottom: 10px;
+}
+.apostaCopa .aposta{
+	width: 140px;
+	padding: 5px;
+	left: 29%;
+	top: 78px;
+	height: 10%;
+}
+
+}

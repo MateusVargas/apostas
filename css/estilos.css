@@ -1,0 +1,1458 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.logo{
+    float: left;
+    position: absolute;
+    top: 8px;
+}
+
+.nomeSite{
+    color: white;
+    text-transform: uppercase;
+    font-size: 23px;
+	font-family: verdana;
+	top: 10px;
+	position: relative;
+    width: 500px;
+    left: 300px;
+}
+.login{
+    float: right;
+}
+img{
+	width: 250px;
+	height: 65px;
+    margin-top: 3px;
+    margin-left: 3px;
+}
+
+body{
+	background-color: teal;
+}
+.container{
+    width: 960px;
+    margin: auto;
+    background-color: white;
+    height: 100%;
+}
+
+header{
+    width: 100%;
+    height: 90px;
+	position: fixed;
+    background: #00008b;
+    z-index: 1;
+	top: 0px;
+	left: 0px;
+    text-align: center;
+}
+
+.login a{
+	float: right;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 15px;
+	padding: 20px;
+	font-family: verdana;
+	margin-right: 30px;
+}
+.login a:hover{
+	color: yellow;
+    border-bottom: 2px solid yellow;
+}
+
+.menu{   
+	background-color: red;
+	width: 100%;
+	height: 50px;
+    clear: both;
+    position: relative;
+}
+
+.menu nav li{
+	display: inline-block;
+	padding: 10px;
+	text-transform: uppercase;
+    margin-right: 0px;
+}
+
+.menu li a:hover{
+    border-bottom: 3px solid white;	
+}
+
+.menu li a{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 15px;
+	font-family: verdana;
+	padding: 10px;
+	margin-left: 50px;
+    margin-right: 50px;
+	background-color: red;
+}
+
+
+.menu nav ul li{
+	position: relative;
+}
+
+li ul{
+	position: absolute;
+	left: 0px;
+	top: 40px;
+	display: none;
+}
+
+ul li ul li ul{
+    width: 170px;
+    position: absolute;
+    left: 170px;
+    top: 0px;
+}
+
+li:hover ul{
+    display: block;
+}
+
+li ul li ul li{
+    display: none;
+}
+
+.menu nav ul li ul li:hover li{
+    display: block;
+}
+
+section:first-of-type{
+    margin-top: 117px;
+}
+
+.s0{
+	position: relative;	
+	padding: 160px;
+	background-image: url("../img/f11.jpg");
+    background-size:cover;
+}
+.s0 .logo1{
+	position: absolute;
+	width: 220px;
+	height: 70px;
+	right: 20px;
+	top: 25px;
+}
+.s0 .logo2{
+	position: absolute;
+	width: 480px;
+	height: 290px;
+	left: 10px;
+	top: 15px;
+}
+
+.s1{
+	position: relative;	
+	padding: 158px;
+	background-image: url("../img/nba60.jpg");
+    background-size:cover;
+}
+.s1 .a{
+	position: absolute;
+	width: 100px;
+	height: 75px;
+	top: 85px;
+	left: 80px;
+}
+.s1 .b{
+	position: absolute;
+	width: 150px;
+	height: 90px;
+	top: 167px;
+	left: 60px;
+}
+
+.s1 .nba{
+	position: absolute;
+	width: 200px;
+	height: 60px;
+	left: 2px;
+	top: 1px;
+}
+.s1 .p1{
+	position: absolute;
+	font-weight: bold;
+	left: 200px;
+	top: 110px;
+	color: white;
+}
+.s1 .p2{
+	position: absolute;
+	font-weight: bold;
+	left: 230px;
+	top: 200px;
+	color: white;
+}
+.s1 .p3{
+	font-weight: bold;
+	color: white;
+	position: absolute;
+	top: 273px;
+	left: 190px;
+	font-family: verdana;
+}
+.s1 .p4{
+	position: absolute;
+	font-weight: bold;
+	top: 73px;
+	right: 200px;
+	color: white;
+}
+
+.s1 .p5{
+	font-weight: bold;
+	margin-top: -86px;
+	float: right;
+	right: 74px;
+	position: absolute;
+	color: white;
+}
+.s1 table{
+    width: 265px;
+    float: right;
+    margin-right: -175px;
+    height: 146px;
+    margin-top: -70px;
+	color: white;
+}
+.s1 .r{
+	color: white;
+	font-weight: bold;
+	font-family: verdana;
+}
+.s1 .p6{
+	position: absolute;
+	width: 180px;
+	font-family: verdana;
+	font-weight: bold;
+	float: right;
+	color: white;
+	right: 45px;
+	top: 273px;
+}
+
+.s2{
+	position: relative;
+	padding: 160px;
+	background-image: url("../img/fundo1.jpg");
+    background-size:cover;
+}
+.s2 .liv{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	top: 70px;
+}
+.s2 .ars{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	top: 190px;
+}
+.s2 .ucl{
+	position: absolute;
+	width: 140px;
+	height: 70px;
+	top: 3px;
+	left: 10px;
+}
+.s2 table{
+    width: 331px;
+    float: right;
+    margin-right: -141px;
+    height: 300px;
+    margin-top: -160px;
+}
+.s2 table td{
+	color: white;
+	font-weight: bold;
+	font-family: verdana;
+}
+.s2 .p1{
+	position: absolute;
+	font-weight: bold;
+	top: 135px;
+	color: white;
+	font-family: verdana;
+	left: 290px;
+}
+.s2 .p2{
+	position: absolute;
+	font-weight: bold;
+	left: 290px;
+	top: 240px;
+	color: white;
+	font-family: verdana;
+}
+
+.s3{
+	position: relative;
+	padding: 160px;
+	background-image: url("../img/Pl.png");
+    background-size:cover;
+}
+.s3 .new{
+	position: absolute;
+	width: 200px;
+	height: 110px;
+	top: 110px;
+	right: 190px;
+}
+.s3 .city{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	top: 110px;
+	right: 45px;
+}
+.s3 .logo{
+	position: absolute;
+	float: right;
+	width: 350px;
+	height: 70px;
+	top: 5px;
+	right: 10px;
+}
+.s3 .p1{
+	position: absolute;
+	font-weight: bold;
+	right: 250px;
+	color: white;
+	font-family: verdana;
+	bottom: 70px;
+}
+.s3 .p2{
+	position: absolute;
+	font-weight: bold;
+	right: 24px;
+	color: white;
+	font-family: verdana;
+	bottom: 70px;
+}
+.s3 .p3{
+	position: absolute;
+	color: white;
+	font-family: verdana;
+	font-weight: bold;
+	font-size: 25px;
+	right: 155px;
+	top: 145px;
+}
+.s3 .mcd{
+	position: absolute;
+	width: 400px;
+	height: 255px;
+	top: 25px;
+	left: 115px
+}
+
+.s4{
+	position: relative;
+	padding: 160px;
+	background-image: url("../img/world.jpg");
+	background-size:cover;
+}
+.s4 .rus{
+	position: absolute;
+	width: 280px;
+	height: 90px;
+	top: 12px;
+	left: 70px;
+}
+.s4 .bra{
+	position: absolute;
+	width: 140px;
+	height: 100px;
+	top: 130px;
+	left: 30px;
+}
+.s4 .belg{
+	position: absolute;
+	width: 110px;
+	height: 90px;
+	top: 130px;
+	left: 240px;
+}
+.s4 .qf{
+	position: absolute;
+	width: 360px;
+	height: 230px;
+	top: 35px;
+	right: 45px;
+}
+.s4 .p1{
+	position: absolute;
+	color: white;
+	font-family: verdana;
+	font-weight: bold;
+	font-size: 25px;
+	left: 160px;
+	top: 160px;
+}
+
+.s5{
+	position: relative;
+	padding:160px;
+	background-image: url("../img/nfl.jpg");
+    background-size:cover;
+}
+.s5 .nfl{
+	position: absolute;
+	width: 130px;
+	height: 111px;
+	top: 8px;
+	right: 125px;
+}
+.s5 .rams{
+	position: absolute;
+	width: 140px;
+	height: 100px;
+	top: 140px;
+	right: 30px;
+}
+.s5 .eng{
+	position: absolute;
+	width: 140px;
+	height: 80px;
+	top: 145px;
+	right: 240px;
+}
+.s5 .p1{
+	position: absolute;
+	font-weight: bold;
+	right: 220px;
+	margin-top: 78px;
+	color: black;
+	font-family: verdana;
+}
+.s5 .p2{
+	position: absolute;
+	font-weight: bold;
+	right: 24px;
+	margin-top: 78px;
+	color: black;
+	font-family: verdana;
+}
+.s6{
+	position: relative;
+	padding:160px;
+	background-image: url("../img/voley.jpg");
+    background-size:cover;
+}
+.s6 .sup{
+	position: absolute;
+	width: 220px;
+	height: 70px;
+	top: 15px;
+	left: 50px;
+}
+.s6 .taubate{
+	position: absolute;
+	width: 150px;
+	height: 120px;
+	top: 115px;
+	left: 30px;
+}
+.s6 .sesi{
+	position: absolute;
+	width: 144px;
+	height: 90px;
+	top: 134px;
+	left: 215px;
+}
+.s6 .p1{
+	position: absolute;
+	color: black;
+	top: 108px;
+	font-weight: bold;
+	left: 122px;
+	font-size: 22px;
+}
+.s6 .p2{
+	position: absolute;
+	color: black;
+	top: 160px;
+	font-weight: bold;
+	left: 175px;
+	font-size: 22px;
+}
+.s7{
+	position: relative;
+	padding: 160px;
+	background-image: url("../img/uefa22.jpg");
+    background-size:cover;
+}
+.s7 .bf{
+	position: absolute;
+	width: 150px;
+	height: 120px;
+	top: 40px;
+	right: 260px;
+}
+.s7 .fn{
+	position: absolute;
+	width: 150px;
+	height: 120px;
+	top: 40px;
+	right: 25px;
+}
+.s7 .placar{
+	position: absolute;
+	font-family: verdana;
+	right: 187px;
+	color: white;
+	font-weight: bold;
+	top: 100px;
+	font-size: 26px;
+}
+.s7 .p1{
+	position: absolute;
+	font-family: verdana;
+	color: white;
+	font-weight: bold;
+	right: 295px;
+	top: 170px;
+}
+.s7 .p2{
+	position: absolute;
+	font-family: verdana;
+	color: white;
+	font-weight: bold;
+	right: 50px;
+	top: 170px;
+}
+footer{
+	position: relative;
+	padding: 60px;
+	background-color: lightgray;
+}
+footer img{
+	width: 40px;
+	height: 30px;
+}
+footer .p1{
+	position: absolute;
+	font-family: verdana;
+	left: 45%;
+	top: 72px;
+	font-size: 15px;
+}
+footer .p2{
+	position: absolute;
+	font-family: verdana;
+	left: 42%;
+	top: 100px;
+	font-size: 13px;
+}
+footer .p3{
+	position: absolute;
+	font-weight: bold;
+	font-family: verdana;
+	left: 40%;
+	top: 46px;
+	font-size: 13px;
+}
+footer .f{
+	position: absolute;
+	left: 48%;
+	top: 35px;
+}
+footer .t{
+	position: absolute;
+	left: 54%;
+	top: 35px;
+}
+footer .g{
+	position: absolute;
+	left: 60%;
+	top: 35px;
+}
+
+ .menu nav .hamburger{
+		display: none;
+	}
+	
+	
+	
+@media only screen and (min-width: 620px) and (max-width: 980px){
+    .menu li a{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+	.menu nav li{
+	margin-right: -9px;
+	}
+	
+    .s0 .logo2{
+        width: 40%;
+    }
+
+    .container{
+        width: 100%;
+    }
+    
+    .nomeSite{
+        width: 100%;
+        left: 50%;
+        right: 50%;
+    }
+    
+	
+	.s1 .nba{
+	width: 30%;
+	height: 18%;
+	left: 2%;
+	}
+	.s1 .p6{
+
+	}
+	.s1 .a{
+	left: 7%;
+	width: 10%;
+	height: 25%;
+	}
+	.s1 .b{
+	left: 4%;
+	width: 16%;
+	height: 30%;
+	}
+    .s1 table{
+	width: 26%;
+	right: 25%;
+	position: absolute;
+	}
+	.s1 .p4{
+	right: 27%;
+	font-size: 15px;
+	}
+	.s1 .p1{
+	left: 19%;
+	font-size: 15px;
+	}
+	.s1 .p2{
+	left: 19%;
+	font-size: 15px;
+	}
+	.s1 .p3{
+	left: 16%;
+	font-size: 15px;
+	}
+	.s1 .p5{
+	right: 13%;
+	font-size: 15px;
+	}
+	
+	
+	
+	.s2 .liv{
+	width: 10%;
+	height: 25%;
+	top: 110px;
+	left: 29%;
+	}
+	.s2 .ars{
+	width: 9%;
+	height: 25%;
+	top: 200px;
+	left: 30%;
+	}
+	.s2 .ucl{
+	width: 15%;
+	height: 40%;
+	left: 4%;
+	top: 132px;
+	}
+	.s2 .p1{
+	left: 50%;
+	top: 140px;
+	}
+	.s2 .p2{
+	left: 50%;
+	top: 235px;
+	}
+	.s2 table{
+	width: 35%;
+	right: 13%;
+	position: absolute;
+	top: 155px;
+	}
+	
+	
+	
+	
+	
+	
+	.s3 .new{
+	width: 25%;
+	height: 35%;
+	left: 45%;
+	top: 100px;
+	}
+	.s3 .logo{
+	width: 32%;
+	left: 30%;
+	height: 19%;
+	}
+	.s3 .mcd{
+	width: 37%;
+	height: 60%;
+	top: 90px;
+	left: 8%;
+	}
+	.s3 .city{
+	width: 13%;
+	height: 30%;
+	right: 6%;
+	}
+	.s3 .p1{
+	left: 56%;
+	}
+	.s3 .p2{
+	right: 6%;
+	}
+	.s3 .p3{
+	right: 23%;
+	font-size: 20px;
+	}
+	
+	
+	
+	
+	.s4 .rus{
+	width: 25%;
+	height: 25%;
+	left: 15%;
+	}
+	.s4 .bra{
+	width: 17%;
+	height: 30%;
+	top: 115px;
+	left: 7%;	
+	}
+	.s4 .belg{
+	width: 13%;
+	height: 28%;
+	left: 32%;
+	top: 110px;
+	}
+	.s4 .qf{
+	width: 35%;
+	height: 65%;
+	right: 6%;
+	top: 50px;
+	}
+	.s4 .p1{
+	left: 24%;
+	top: 150px;
+	font-size: 20px;
+	}
+
+
+
+
+	.s5 .nfl{
+	
+	}
+	.s5 .rams{
+		
+	}
+	.s5 .eng{
+	
+	}
+	.s5 .p1{
+		
+	}
+	.s5 .p2{
+		
+	}
+	
+	
+	
+	
+	
+	.s6 .sup{
+	
+	}
+	.s6 .taubate{
+	
+	}
+	.s6 .sesi{
+	
+	}
+	.s6 .p1{
+	
+	}
+	.s6 .p2{
+	
+	}
+	
+	
+	
+	
+	
+	
+	.s7 .fn{
+	
+	}
+	.s7 .bf{
+
+	}
+	
+	.s7 .placar{
+			
+	}
+	.s7 .p1{
+		
+	}
+	.s7 .p2{
+		
+	}
+	
+	
+	
+	
+	
+}
+
+@media only screen and (min-width: 420px) and (max-width: 600px){
+		section:first-of-type{
+    margin-top: 105px;
+	}
+    .logo img{
+        width: 145px;
+		height: 40px;
+		position: absolute;
+    }
+    .container{
+        width: 100%;
+    }
+	.login a{
+	float: right;
+	text-decoration: none;
+	font-size: 15px;
+	padding: 10px;
+	margin-right: 10px;
+	}
+	.nomeSite{
+    font-size: 15px;
+	top: 15px;
+    width: 100%;
+    left: 30%;
+        
+	}
+	.menu nav{
+	position: relative;
+	width: 100%;
+	}
+	.menu nav li a{
+	width: 100%;
+	position: relative;
+	text-decoration: none;
+	font-size: 10px;
+	margin-left: -20px;
+	margin-right: 5px;
+}
+
+	footer img{
+	width: 30px;
+	height: 20px;
+	}
+	footer .p1{
+	left: 40%;
+	top: 55%;
+	}
+	footer .p2{
+	left: 34%;
+	top: 77%;
+	}
+	footer .p3{
+	left: 30%;
+	top: 33%;
+	}
+	footer .f{
+	left: 48%;
+	}
+	footer .t{
+	left: 55%;
+	}
+	footer .g{
+	left: 62%;
+	}
+	
+    .s0 .logo2{
+        width: 50%;
+    }
+    
+    .container{
+        width: 100%;
+    }
+    
+    .logo img{
+        width: 90%;
+        position: relative;
+        float: left;
+        height: 45px;
+		top: -4px;
+    }
+
+	.s1 .nba{
+
+	}
+	.s1 .p6{
+	left: 20%;
+	font-size: 90%;
+	}
+	.s1 .a{
+	width: 15%;
+	left: 8%;
+	}
+	.s1 .b{
+	width: 25%;
+	height: 23%;
+	left: 3%;
+	}
+    .s1 table{
+	display: none;
+	}
+	.s1 .p4{
+	display: none;
+	}
+	.s1 .p5{
+	display: none;
+	}
+	.s1 .p1{
+	font-size: 90%;
+	left: 25%;
+	}
+	.s1 .p2{
+	font-size: 90%;
+	left: 25%;
+	}
+	.s1 .p3{
+	display: none;
+	}
+	
+	
+	
+	
+	.s2 .liv{
+	width: 15%;
+	height: 25%;
+	left: 7%;
+	top: 28%;
+	}
+	.s2 .ars{
+	width: 13%;
+	height: 28%;
+	left: 8%;
+	top: 58%;
+	}
+	.s2 .ucl{
+	width: 20%;
+	left: 5%;
+	height: 23%;
+	}
+	.s2 .p1{
+	display: none;
+	}
+	.s2 .p2{
+	display: none;
+	}
+	.s2 table{
+	width: 132%;
+	}
+	
+	
+	
+	
+	
+	.s3 .new{
+	width: 33%;
+	height: 30%;
+	right: 33%;
+	}
+	.s3 .logo{
+	right: 80px;
+	width: 70%;
+	}
+	.s3 .mcd{
+	width: 32%;
+	height: 45%;
+	left: 7%;
+	top: 95px;
+	}
+	.s3 .city{
+	width: 20%;
+	height: 27%;
+	top: 120px;
+	right: 2%;
+	}
+	.s3 .p1{
+	display: none;
+	}
+	.s3 .p2{
+	display: none;
+	}
+	.s3 .p3{
+	width: 50%;
+	right: -12%;
+	}
+	
+	
+	
+	
+	
+	
+	.s4 .rus{
+	width: 40%;
+	height: 25%;
+	left: 10%;
+	}
+	.s4 .bra{
+	width: 20%;
+	height: 27%;
+	left: 5%;
+	}
+	.s4 .belg{
+	width: 15%;
+	height: 25%;
+	left: 35%;
+	}
+	.s4 .qf{
+	width: 40%;
+	height: 50%;
+	top: 100px;
+	right: 5%;
+	}
+	.s4 .p1{
+	font-size: 20px;
+	left: 25%;
+	}
+
+
+
+
+
+
+
+	.s5 .nfl{
+	left: 40%;
+	}
+	.s5 .rams{
+	width: 23%;
+	height: 25%;
+	right: 15%;
+	}
+	.s5 .eng{
+	width: 23%;
+	height: 25%;
+	left: 15%;
+	}
+	.s5 .p1{
+	left: 13%;
+	}
+	.s5 .p2{
+	right: 13%;
+	}
+	
+	
+	
+	
+	
+	.s6 .sup{
+	left: 25%;
+	width: 40%;
+	height: 20%;
+	}
+	.s6 .taubate{
+	left: 15%;
+	}
+	.s6 .sesi{
+	left: 50%;
+	}
+	.s6 .p1{
+	left: 31%;
+	top: 90px;
+	}
+	.s6 .p2{
+	left: 44%;
+	font-family: verdana;
+	}
+	
+	
+	
+	
+	
+	.s7 .fn{
+	right: 8%;
+	}
+	.s7 .bf{
+	left: 10%;
+	}	
+	.s7 .placar{
+	right: 42%;
+	font-size: 21px;
+	}
+	.s7 .p1{
+	display: none;
+	}
+	.s7 .p2{
+	display: none;
+	}
+
+
+
+
+
+
+}
+
+@media only screen and (max-width: 420px){
+	section:first-of-type{
+    margin-top: 90px;
+}
+    .container{
+		width: 100%;
+	}
+	
+   /* .menu nav .hamburger{
+    top: 10px;
+	position: absolute;
+	margin-left: 50%;
+	color: wheat;
+	clear: both;
+	}*/
+    .container{
+        width: 100%;
+    }
+    
+    header{
+	width: 100%;
+	height: 50px;
+	position: fixed;
+	z-index: 1;
+	}
+    
+	.nomeSite{
+ 	font-size: 9px;
+	top: 30px;
+	position: absolute;
+	left: 90px;
+	}
+	.login a{
+	font-size: 10px;
+	padding: 10px;
+	position: relative;	
+	}
+	
+	.menu nav{
+		width: 100%;
+		margin-top: 20px;
+		clear: both;
+	}
+	
+	.menu{
+        width: 100%;
+		clear: both;
+        position: relative;
+        top: 17px;
+        height: 40px;
+	}
+    
+    .menu li a{
+	font-size: 11px;
+	padding: 1px;
+	letter-spacing: -2px;
+	margin-inline-start: -22px;
+	margin-inline-end: 0px;
+}
+    
+    .logo img{
+        width: 70px;
+        height: 30px;
+		position: absolute;
+    }
+    
+    .login a:hover{
+	color: yellow;
+    border-bottom: 1px solid yellow;
+    }
+	
+    .s0 .logo1{
+    position: absolute;
+    width: 60%; 
+    height: 20%;
+    top: 0px;
+    left: 30px;
+    }
+    
+    .s0 .logo2{
+    width: 65%; 
+    height: 70%;
+    top: 80px;
+    }
+    
+    .menu nav ul .hamburger i:hover a{
+        display: block;
+        color: white;
+    }
+	
+	
+	
+	
+	
+	.s1 .nba{
+		width: 50%;
+		height: 20%;
+	}
+	.s1 .p6{
+		display: none;
+	}
+	.s1 .a{
+		left: 2px;
+		width: 30%;
+	}
+	.s1 .b{
+		left: 2px;
+		width: 30%;
+		top: 160px;
+	}
+    .s1 table{
+		left: 130px;
+		width: 40%;
+		position: absolute;
+	}
+	.s1 .p4{
+		left: 35%;
+	}
+	.s1 .p1{
+		display: none;
+	}
+	.s1 .p2{
+		display: none;
+	}
+	.s1 .p3{
+		left: 10%;
+		font-size: 14px;
+	}
+	.s1 .p5{
+		right: 30%;
+	}
+	
+	
+	
+	
+	.s2 .liv{
+		left: 2px;
+		width: 15%;
+		height: 20%;
+		position: absolute;
+	}
+	.s2 .ars{
+		left: 2px;
+		width: 15%;
+		height: 20%;
+		top: 165px;
+		position: absolute;
+	}
+	.s2 .ucl{
+		position: absolute;
+		width: 83px;
+		height: 53px;
+		top: 3px;
+		left: 10px;
+	}
+	.s2 .p1{
+		display: none;
+	}
+	.s2 .p2{
+		display: none;
+	}
+	.s2 table{
+		width: 153px;
+		float: right;
+		margin-right: -95px;
+		height: 225px;
+		margin-top: -160px;
+	}
+	
+	
+	
+	
+	
+	
+	.s3 .new{
+		width: 50%;
+		height: 30%;
+	}
+	.s3 .logo{
+		right: 80px;
+		width: 70%;
+	}
+	.s3 .mcd{
+		display: none;
+	}
+	.s3 .city{
+		width: 25%;
+		height: 25%;
+		top: 120px;
+	}
+	.s3 .p1{
+		display: none;
+	}
+	.s3 .p2{
+		display: none;
+	}
+	
+	
+	
+	
+	
+	.s4 .rus{
+		width: 60%;
+		height: 25%;
+	}
+	.s4 .bra{
+		width: 30%;
+		height: 25%;	
+	}
+	.s4 .belg{
+		width: 25%;
+		height: 25%;
+		left: 52%;
+	}
+	.s4 .qf{
+		display: none;
+	}
+	.s4 .p1{
+		font-size: 20px;
+		left: 35%;
+	}
+
+
+
+
+	.s5 .nfl{
+		width: 35%;
+		height: 25%;
+	}
+	.s5 .rams{
+		width: 25%;
+		height: 25%;
+		left: 55%;
+	}
+	.s5 .eng{
+		width: 30%;
+		height: 25%;
+		left: 2%;
+	}
+	.s5 .p1{
+		font-size: 80%;
+	}
+	.s5 .p2{
+		font-size: 80%;
+	}
+	
+	
+	
+	
+	
+	.s6 .sup{
+	width: 55%;
+	height: 20%;
+	top: 10px;
+	left: 15%;
+	}
+	.s6 .taubate{
+	width: 33%;
+	height: 35%;
+	top: 95px;
+	left: 2%;
+	}
+	.s6 .sesi{
+	left: 40%;
+	width: 40%;
+	height: 25%;
+	top: 120px;
+	}
+	.s6 .p1{
+		display: none;
+	}
+	.s6 .p2{
+	width: 25%;
+	font-size: 25px;
+	left: 33%;
+	top: 135px;
+	}
+	
+	
+	
+	
+	
+	
+	.s7 .fn{
+	width: 31%;
+	height: 27%;
+	left: 48%;
+	top: 53px;
+	}
+	.s7 .bf{
+	width: 30%;
+	height: 27%;
+	left: 1%;
+	top: 57px;
+	}
+	
+	.s7 .placar{
+	width: 25%;
+	left: 32%;
+	top: 95px;
+	font-size: 20px;		
+	}
+	.s7 .p1{
+	display: none;	
+	}
+	.s7 .p2{
+	display: none;	
+	}
+	
+	
+	
+	footer img{
+	width: 30px;
+	height: 20px;
+	}
+	footer .p1{
+	left: 25%;
+	top: 55%;
+	}
+	footer .p2{
+	left: 13%;
+	top: 77%;
+	}
+	footer .p3{
+	left: 12%;
+	top: 33%;
+	}
+	footer .f{
+	left: 38%;
+	}
+	footer .t{
+	left: 53%;
+	}
+	footer .g{
+	left: 70%;
+	}
+	
+	
+}
